@@ -1,0 +1,19 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body{
+    background: hsl(0, 100%, 74%) ;
+    background-image: url(images/bg-intro-desktop.png);
+}
+
+#errorMsg, #errorMsg2, #errorMsg3, #errorMsg4{
+  display: none;
+}
+
+
