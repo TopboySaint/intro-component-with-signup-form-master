@@ -12,8 +12,6 @@ body{
     background-image: url(images/bg-intro-desktop.png);
 }
 
-#errorMsg, #errorMsg2, #errorMsg3, #errorMsg4{
+#errorMsg{
   display: none;
 }
-
-

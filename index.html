@@ -11,8 +11,9 @@
 
   <title>Frontend Mentor | Intro component with sign up form</title>
 <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 </head>
-<body>
+<body>I
 <main class="container col-11 col-md-11 col-lg-12 mx-auto mt-5">
   
   <div class="container d-lg-flex gap-5 justify-content-center align-items-center">
@@ -27,25 +28,29 @@
 
       <form>
         <button class="btn btn-primary mx-auto d-block mb-2 w-100 shadow">Try it free 7 days then $20/mo. thereafter</button>
-
+        <!-- <p class="alert alert-danger p-2 text-center animate__headShake" id="errorMsg">Please fill in all fields</p> -->
         <div>
-          <input type="text" id="fname" name="fname" placeholder="First Name" class="form-control shadow-none mb-4">
-          <p id="errorMsg" class="text-danger ">First Name cannot be empty</p>
+          <input type="text" id="fname" name="fname" placeholder="First Name" class="form-control shadow-none mb-2">
+          <!-- <img src="images/icon-error.svg" alt="" class="error-icon" width="20"> -->
+          <p class="text-danger fs-6" id = "errorMsg">First name cannot be empty</p>
         </div>
 
         <div>
-          <input type="text" id="lname" name="lname" placeholder="Last Name" class="form-control shadow-none mb-4">
-          <p id="errorMsg2" class="text-danger ">Last Name cannot be empty</p>
+          <input type="text" id="lname" name="lname" placeholder="Last Name" class="form-control shadow-none mb-2">
+          <!-- <img src="images/icon-error.svg" alt="" class="error-icon" width="20"> -->
+          <p class="text-danger fs-6" id = "errorMsgTwo">Last name cannot be empty</p>
         </div>
 
         <div>
-          <input type="email" id="email" name="email" placeholder="Email Address" class="form-control shadow-none mb-4">
-          <p id="errorMsg3" class="text-danger ">Looks like this is not an email</p>
+          <input type="email" id="email" name="email" placeholder="Email Address" class="form-control shadow-none mb-2">
+          <!-- <img src="images/icon-error.svg" alt="" class="error-icon" width="20"> -->
+          <p class="text-danger fs-6" id = "errorMsgThree">Looks like this is not an email</p>
         </div>
 
         <div>
-          <input type="password" id="password" name="password" placeholder="Password" class="form-control shadow-none mb-4">
-          <p id="errorMsg4" class="text-danger ">Password cannot be empty</p>
+          <input type="password" id="password" name="password" placeholder="Password" class="form-control shadow-none mb-2">
+          <!-- <img src="images/icon-error.svg" alt="" class="error-icon" width="20"> -->
+          <p class="text-danger fs-6" id = "errorMsgFour">Password cannot be empty</p>
         </div>
 
         <button type="submit" class="btn btn-success w-100 mb-4 shadow" onclick="submitForm()">Claim your free trial</button>
